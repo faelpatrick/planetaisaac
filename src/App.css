@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
-}
+:root {
+  --color-primary: #0c890a;
+  --color-primary-focus: #0ca100;
+  --color-primary-negative: #113c0f;
+  --color-secondary: #D5D5D5;
+  --color-secondary-focus: #FFFFFF;
+  --color-secondary-negative: #EDEDED;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  --color-grey-0: #0A0C0E;
+  --color-grey-1: #212529;
+  --color-grey-2: #495057;
+  --color-grey-3: #868E96;
+  --color-grey-4: #ADB5BD;
+  --color-grey-5: #CED4DA;
+  --color-grey-6: #DEE2E6;
+  --color-grey-7: #E9ECEF;
+  --color-grey-8: #F1F3F5;
+  --color-grey-9: #F8F9FA;
+  --color-grey-10: #FDFDFD;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  --font-title: 'Staatliches', cursive;
+  --font-text: 'Nunito', sans-serif;
 }
