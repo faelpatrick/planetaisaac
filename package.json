@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "git add . && npm run build && git commit -m 'build' && git push origin main"
+    "deploy": "git add . && npm run build && git commit -m 'build' && git push origin main && git status"
   },
   "eslintConfig": {
     "extends": [
