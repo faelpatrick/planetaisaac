@@ -92,14 +92,130 @@ body {
 
 footer {
   color: var(--branco);
-
   font-size: 0.8rem;
   text-align: center;
   padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+  left: 1%;
 }
 
 footer a {
   color: var(--branco);
   text-decoration: none;
   font-size: 0.8rem;
+}
+
+/* Operacoes */
+.operacao-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.display-pergunta {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #0c890a;
+  border-radius: 10px;
+  width: 90vw;
+  height: 100px;
+  text-align: center;
+  background-color: var(--branco);
+  color: var(--verde-escuro);
+  font-size: 4rem;
+  font-weight: 600;
+  text-shadow: 0 0 2px #00000070;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.botoes-resposta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+.btn-resposta {
+  margin: 2%;
+  padding: 1%;
+  border: 2px solid #0c890a;
+  border-radius: 10px;
+  text-align: center;
+  color: var(--branco);
+  background-color: var(--verde);
+  font-size: 3rem;
+  width: 3rem;
+}
+.resposta-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+}
+.display-placar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 3rem;
+  font-weight: 400;
+  align-items: baseline;
+  padding: 3rem 0 1rem 0;
+}
+.placar {
+  background-color: #333; /* Cor de fundo escura */
+  color: #4caf50; /* Cor do texto em verde claro */
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 1.2rem;
+  text-align: center;
+  font-family: "Digital-7", "Courier New", monospace; /* Fonte estilo digital */
+  font-size: 3rem;
+  font-weight: 900;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+}
+/* fim operacoes */
+
+/* modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.bg-red {
+  background-color: red;
+  color: white;
+}
+
+.bg-green {
+  background-color: green;
+  color: white;
 }
