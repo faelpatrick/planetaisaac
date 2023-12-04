@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
 :root {
   --verde: #0c890a;
   --verde-focus: #0ca100;
@@ -12,10 +14,7 @@
   --font-title: "Staatliches", cursive;
   --font-text: "Nunito", sans-serif;
 
-  --font-cursiva-inter: "Inter", sans-serif;
-  --font-cursiva-josefin: "Josefin Sans", sans-serif;
-  --font-cursiva-poppins: "Poppins", sans-serif;
-  --font-cursiva-roboto: "Roboto", sans-serif;
+  --font-cursiva-cookie: "Cookie", cursive;
 }
 
 * {
@@ -43,6 +42,10 @@ body {
   background: linear-gradient(to bottom, var(--azul-fundo-escuro), var(--azul-fundo-claro));
   color: var(--branco);
   font-family: var(--font-text);
+}
+
+.cursiva {
+  font-family: var(--font-cursiva-cookie);
 }
 
 .home-games-list {
@@ -153,6 +156,14 @@ footer a {
   font-size: 3rem;
   width: 3rem;
 }
+.btn-largo {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
 .resposta-input {
   width: 50%;
   padding: 10px;
@@ -206,7 +217,15 @@ footer a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   font-size: 4rem;
+}
+
+.modal-content p {
+  text-align: center;
+  padding: 1rem;
+  font-family: cursive;
+  font-size: 3rem;
 }
 
 .bg-red {

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Voltar from "../../../components/Voltar";
-import "./Adicao.css";
-
+import { Modal, abrirModal } from "../../../components/Modal";
 const Adicao = () => {
   const [num1, setNum1] = useState<number>(0);
   const [num2, setNum2] = useState<number>(0);
@@ -18,10 +17,6 @@ const Adicao = () => {
   const gerarPergunta = () => {
     const novoNum1 = Math.floor(Math.random() * 10);
     let novoNum2 = Math.floor(Math.random() * 10);
-
-    // while (novoNum1 === novoNum2) {
-    //   novoNum2 = Math.floor(Math.random() * 10);
-    // }
 
     setNum1(novoNum1);
     setNum2(novoNum2);
@@ -45,38 +40,22 @@ const Adicao = () => {
   // apagar estilo backspace com o slice(0,-1)
   const apagarResposta = () => {
     resposta >= 10 ? setResposta(parseInt(resposta.toString().slice(0, -1))) : setResposta(-1);
-  }
+  };
 
   const verificarResposta = (resposta: number) => {
-
     if (resposta === num1 + num2) {
       setPlacar(placar + 1);
       abrirModal("Parabéns, você acertou!", "green");
       setResposta(-1);
       gerarPergunta();
-      return
+      return;
     }
     abrirModal("Infelizmente, você Errou", "red");
     setResposta(-1);
     gerarPergunta();
-
   };
 
-  const abrirModal = (msg: string = "VAZIO", color: string = "black") => {
-
-    let myModal = document.getElementById("myModal")
-    let modalStatus = myModal!.style.display;
-    setConteudoModal(msg);
-    myModal?.style.setProperty("background-color", color);
-
-    if (modalStatus === "block") {
-      myModal!.style.display = "none";
-    } else {
-      myModal!.style.display = "block";
-    }
-  };
-
-
+ 
 
   return (
     <div className="operacao-container">
@@ -94,17 +73,17 @@ const Adicao = () => {
             {i}
           </button>
         ))}
-        <button className="btn-resposta btn-apagar" onClick={() => apagarResposta()}> « </button>
-        <button className="btn-resposta" onClick={() => verificarResposta(resposta)}> = </button>
+        <button className="btn-resposta btn-apagar" onClick={() => apagarResposta()}>
+          {" "}
+          «{" "}
+        </button>
+        <button className="btn-resposta" onClick={() => verificarResposta(resposta)}>
+          {" "}
+          ={" "}
+        </button>
       </div>
 
-      <div className="modal" id="myModal">
-        <div className="modal-content" onClick={() => abrirModal()}>
-          {/* <span className="close" onClick={() => abrirModal()}>&times;</span> */}
-          {/* <p >{resposta === num1 + num2 ? "Acertou!" : "Errou!"}</p> */}
-          <p>{conteudoModal}</p>
-        </div>
-      </div>
+      <Modal/>
     </div>
   );
 };
