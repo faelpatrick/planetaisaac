@@ -155,6 +155,7 @@ footer a {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2%;
+  max-width: 90vw;
 }
 .btn-resposta {
   margin: 2%;

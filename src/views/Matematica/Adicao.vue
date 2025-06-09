@@ -27,7 +27,7 @@
       <span>{{ resposta !== -1 ? resposta : '?' }}</span>
     </div>
 
-    <div class="botoes">~
+    <div class="botoes">
       <div class="botoes-resposta">
         <button
           v-for="i in 10"

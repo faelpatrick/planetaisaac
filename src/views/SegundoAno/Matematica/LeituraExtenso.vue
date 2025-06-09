@@ -6,9 +6,8 @@
       Pontos:
       <div class="placar">{{ placar }}</div>
     </div>
-
-    <div class="display-pergunta">
-      Como se escreve o número:
+		<h1>Como se escreve o número:</h1>
+    <div class="display-pergunta mt-4">
       <h2>{{ numero }}</h2>
     </div>
 
@@ -19,7 +18,7 @@
       @keyup.enter="verificarResposta"
     />
 
-		<div class="botoes-resposta" style="width: 100%; display: flex; gap: 1rem;">
+    <div class="botoes-resposta">
       <button class="btn-largo px-2 btn-resposta" @click="verificarResposta">Verificar</button>
       <button class="btn-largo px-2 btn-resposta btn-apagar" @click="proximaPergunta">Pular</button>
     </div>
@@ -76,9 +75,9 @@ onMounted(() => {
 <style scoped>
 .campo-resposta {
   width: 100%;
-  max-width: 400px;
-  padding: 1rem;
-  font-size: 1.2rem;
+  max-width: 90vw;
+  padding: 1.5rem 1rem;
+  font-size: 1.5rem;
   margin: 1rem auto;
   display: block;
   border-radius: 8px;
