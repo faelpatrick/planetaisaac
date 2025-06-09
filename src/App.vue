@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <RouterView />
-  </div>
+  </div> 
+  <footer>
+      Planeta Isaac – Desenvolvido por
+      <a href="https://linktr.ee/faelpatrick" target="_blank"> Rafael Patrick</a>
+    </footer>
 </template>
 
 <script setup>
