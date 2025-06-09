@@ -9,7 +9,7 @@
       <RouterLink to="/segundo-ano/matematica" class="game-button">
         📐 Matemática
       </RouterLink>
-      <RouterLink to="/segundo-ano/estudo-meio" class="game-button">
+      <RouterLink to="/segundo-ano/estudo-do-meio" class="game-button">
         🌱 Estudo do Meio
       </RouterLink>
       <RouterLink to="/segundo-ano/portugues" class="game-button">

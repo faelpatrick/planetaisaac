@@ -2,7 +2,7 @@
   <div class="operacao-container">
     <Voltar />
 
-    <div class="game-links">
+    <!-- <div class="game-links">
       <h1>Escolha uma atividade de Matemática:</h1>
 
       <RouterLink to="/segundo-ano/matematica/leitura-extenso" class="game-button">
@@ -11,14 +11,9 @@
 
       <RouterLink to="/segundo-ano/matematica/escrita-extenso" class="game-button">
         🔢 <b>Escrita</b> por extenso até 1000
-      </RouterLink>
+      </RouterLink> 
 
-      <!-- próximos links:
-      <RouterLink to="/segundo-ano/matematica/graficos" class="game-button">
-        📊 Gráficos e Tabelas
-      </RouterLink>
-      -->
-    </div>
+    </div> -->
   </div>
 </template>
 
