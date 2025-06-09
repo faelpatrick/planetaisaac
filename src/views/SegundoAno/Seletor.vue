@@ -1,21 +1,30 @@
 <template>
-  <div class="home-container">
-    <h1>Planeta Isaac 🌍</h1>
-    <h2>Escolha um jogo</h2>
+  <div class="operacao-container">
+    <Voltar />
 
-    <div class="game-links">
-    <RouterLink to="/matematica/adicao" class="game-button">➕ Adição</RouterLink>
-<RouterLink to="/matematica/subtracao" class="game-button">➖ Subtração</RouterLink>
-<RouterLink to="/portugues/ditongos" class="game-button">🔤 Ditongos</RouterLink>
-<RouterLink to="/segundo-ano" class="game-button">🏫 2º Ano</RouterLink>
+		<div class="game-links">
 
+    <h1>Escolha um tema para começar:</h1>
+
+      <RouterLink to="/segundo-ano/matematica" class="game-button">
+        📐 Matemática
+      </RouterLink>
+      <RouterLink to="/segundo-ano/estudo-meio" class="game-button">
+        🌱 Estudo do Meio
+      </RouterLink>
+      <RouterLink to="/segundo-ano/portugues" class="game-button">
+        📘 Português
+      </RouterLink>
     </div>
   </div>
 </template>
 
 <script setup>
+import Voltar from '@/components/Voltar.vue'
 import { RouterLink } from 'vue-router'
 </script>
+
+
 
 <style scoped>
 .home-container {
@@ -41,6 +50,7 @@ import { RouterLink } from 'vue-router'
   text-decoration: none;
   border-radius: 8px;
   transition: 0.3s;
+	text-align: center;
 }
 
 .game-button:hover {

@@ -6,7 +6,15 @@
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
-const voltarParaHome = () => router.push('/')
+// const voltarParaHome = () => router.push('/')
+// history.back() will take the user back to the previous page in the history stack
+const voltarParaHome = () => {
+  if (document.referrer) {
+    window.history.back()
+  } else {
+    router.push('/')
+  }
+}
 </script>
 
 <style scoped>
