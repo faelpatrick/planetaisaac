@@ -160,9 +160,7 @@ footer a {
   width: 8rem;
   display: flex;
   align-items: center;
-  justify-content: center;
- 
-  
+  justify-content: center;  
 }
 .resposta-input {
   width: 50%;
@@ -236,4 +234,21 @@ footer a {
 .bg-green {
   background-color: green;
   color: white;
+}
+
+@media and (max-width: 1024px) {
+  .btn-largo {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+  .display-placar {
+    font-size: 2rem;
+    padding: 2rem 0 1rem 0;
+  }
+  .placar {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+  }
 }
