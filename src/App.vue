@@ -24,4 +24,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1024px) {
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 0;
+    text-align: center;
+  }
+}
 </style>
