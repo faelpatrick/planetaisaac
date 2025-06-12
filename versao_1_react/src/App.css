@@ -238,11 +238,11 @@ footer a {
 
 @media and (max-width: 1024px) {
   .btn-largo {
-  width: 8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-}
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
   .display-placar {
     font-size: 2rem;
     padding: 2rem 0 1rem 0;
