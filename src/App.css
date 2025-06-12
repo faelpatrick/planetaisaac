@@ -252,3 +252,20 @@ input {
   background-color: var(--branco);
   color: var(--verde-escuro);
 }
+
+@media and (max-width: 1024px) {
+  .display-placar {
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+  .btn-largo {
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  .placar {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+  }
+}
