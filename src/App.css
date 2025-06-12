@@ -253,13 +253,13 @@ input {
   color: var(--verde-escuro);
 }
 
-@media and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .display-placar {
     margin-top: 30px;
     font-size: 2rem;
   }
   .btn-largo {
-    width: 6rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
     justify-content: center;  
