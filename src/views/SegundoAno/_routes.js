@@ -34,5 +34,11 @@ export default [
 		path: '/segundo-ano/portugues',
 		name: 'portugues',
 		component: () => import('./Portugues/Seletor.vue')
+	},
+	{
+		path: '/segundo-ano/portugues/ditado',
+		name: 'portugues-ditado',
+		component: () => import('./Portugues/Ditado.vue')
 	}
+
 ]

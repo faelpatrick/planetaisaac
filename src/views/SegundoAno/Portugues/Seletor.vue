@@ -1,19 +1,15 @@
 <template>
   <div class="operacao-container">
     <Voltar />
+    
+    <div class="game-links">
+      <h1>Escolha uma atividade de Portugues:</h1>
 
-    <!-- <div class="game-links">
-      <h1>Escolha uma atividade de Matemática:</h1>
-
-      <RouterLink to="/segundo-ano/matematica/leitura-extenso" class="game-button">
-        🔢 <b>Leitura</b> por extenso até 1000
+      <RouterLink to="/segundo-ano/portugues/Ditado" class="game-button">
+        🔢 <b>Ditado</b>
       </RouterLink>
 
-      <RouterLink to="/segundo-ano/matematica/escrita-extenso" class="game-button">
-        🔢 <b>Escrita</b> por extenso até 1000
-      </RouterLink> 
-
-    </div> -->
+    </div> 
   </div>
 </template>
 
