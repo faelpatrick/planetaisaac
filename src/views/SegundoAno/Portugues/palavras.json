@@ -1,2522 +1,524 @@
 [
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abacaxi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "baleia",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "cachorro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dente",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eletricidade",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "flor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "abelha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bola",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "casa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "dado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "elefante",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "faca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "hora",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "igreja",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "janela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "kiwi",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "luz",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mala",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "noite",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "olho",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pai",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "quadro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rua",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sol",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tigre",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "uva",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vaca",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "watt",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xarope",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "yoga",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zebra",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "amor",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "bebé",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "café",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "doce",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "eco",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "festa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "gelo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "herói",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ilha",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "jogo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "livro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "mesa",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "nuvem",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "ouro",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "pão",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "queijo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "rato",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "sapo",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "tela",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "urso",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "vento",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "xampu",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "zangado",
-    "acertos": 0,
-    "erros": 0
-  },
-  {
-    "palavra": "água",
-    "acertos": 0,
-    "erros": 0
-  }
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "abacaxi",    "acertos": 0, "erros": 0  },
+  { "palavra": "baleia",    "acertos": 0, "erros": 0  },
+  { "palavra": "cachorro",    "acertos": 0, "erros": 0  },
+  { "palavra": "dente",    "acertos": 0, "erros": 0  },
+  { "palavra": "eletricidade",    "acertos": 0, "erros": 0  },
+  { "palavra": "flor",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "abelha",    "acertos": 0, "erros": 0  },
+  { "palavra": "bola",    "acertos": 0, "erros": 0  },
+  { "palavra": "casa",    "acertos": 0, "erros": 0  },
+  { "palavra": "dado",    "acertos": 0, "erros": 0  },
+  { "palavra": "elefante",    "acertos": 0, "erros": 0  },
+  { "palavra": "faca",    "acertos": 0, "erros": 0  },
+  { "palavra": "gato",    "acertos": 0, "erros": 0  },
+  { "palavra": "hora",    "acertos": 0, "erros": 0  },
+  { "palavra": "igreja",    "acertos": 0, "erros": 0  },
+  { "palavra": "janela",    "acertos": 0, "erros": 0  },
+  { "palavra": "kiwi",    "acertos": 0, "erros": 0  },
+  { "palavra": "luz",    "acertos": 0, "erros": 0  },
+  { "palavra": "mala",    "acertos": 0, "erros": 0  },
+  { "palavra": "noite",    "acertos": 0, "erros": 0  },
+  { "palavra": "olho",    "acertos": 0, "erros": 0  },
+  { "palavra": "pai",    "acertos": 0, "erros": 0  },
+  { "palavra": "quadro",    "acertos": 0, "erros": 0  },
+  { "palavra": "rua",    "acertos": 0, "erros": 0  },
+  { "palavra": "sol",    "acertos": 0, "erros": 0  },
+  { "palavra": "tigre",    "acertos": 0, "erros": 0  },
+  { "palavra": "uva",    "acertos": 0, "erros": 0  },
+  { "palavra": "vaca",    "acertos": 0, "erros": 0  },
+  { "palavra": "watt",    "acertos": 0, "erros": 0  },
+  { "palavra": "xarope",    "acertos": 0, "erros": 0  },
+  { "palavra": "yoga",    "acertos": 0, "erros": 0  },
+  { "palavra": "zebra",    "acertos": 0, "erros": 0  },
+  { "palavra": "amor",    "acertos": 0, "erros": 0  },
+  { "palavra": "bebé",    "acertos": 0, "erros": 0  },
+  { "palavra": "café",    "acertos": 0, "erros": 0  },
+  { "palavra": "doce",    "acertos": 0, "erros": 0  },
+  { "palavra": "eco",    "acertos": 0, "erros": 0  },
+  { "palavra": "festa",    "acertos": 0, "erros": 0  },
+  { "palavra": "gelo",    "acertos": 0, "erros": 0  },
+  { "palavra": "herói",    "acertos": 0, "erros": 0  },
+  { "palavra": "ilha",    "acertos": 0, "erros": 0  },
+  { "palavra": "jogo",    "acertos": 0, "erros": 0  },
+  { "palavra": "livro",    "acertos": 0, "erros": 0  },
+  { "palavra": "mesa",    "acertos": 0, "erros": 0  },
+  { "palavra": "nuvem",    "acertos": 0, "erros": 0  },
+  { "palavra": "ouro",    "acertos": 0, "erros": 0  },
+  { "palavra": "pão",    "acertos": 0, "erros": 0  },
+  { "palavra": "queijo",    "acertos": 0, "erros": 0  },
+  { "palavra": "rato",    "acertos": 0, "erros": 0  },
+  { "palavra": "sapo",    "acertos": 0, "erros": 0  },
+  { "palavra": "tela",    "acertos": 0, "erros": 0  },
+  { "palavra": "urso",    "acertos": 0, "erros": 0  },
+  { "palavra": "vento",    "acertos": 0, "erros": 0  },
+  { "palavra": "xampu",    "acertos": 0, "erros": 0  },
+  { "palavra": "zangado",    "acertos": 0, "erros": 0  },
+  { "palavra": "água",    "acertos": 0, "erros": 0  },
+  { "palavra": "Sim", "acertos": 0, "erros": 0},
+  { "palavra": "Não", "acertos": 0, "erros": 0},
+  { "palavra": "Calor", "acertos": 0, "erros": 0},
+  { "palavra": "Coelhos", "acertos": 0, "erros": 0},
+  { "palavra": "Canários", "acertos": 0, "erros": 0},
+  { "palavra": "Jardim", "acertos": 0, "erros": 0},
+  { "palavra": "Burro", "acertos": 0, "erros": 0},
+  { "palavra": "Pássaros", "acertos": 0, "erros": 0},
+  { "palavra": "Beber", "acertos": 0, "erros": 0},
+  { "palavra": "Palhinha", "acertos": 0, "erros": 0},
+  { "palavra": "Árvore", "acertos": 0, "erros": 0},
+  { "palavra": "Lagartixa", "acertos": 0, "erros": 0},
+  { "palavra": "Ramo", "acertos": 0, "erros": 0},
+  { "palavra": "Camaleão", "acertos": 0, "erros": 0},
+  { "palavra": "Amizade", "acertos": 0, "erros": 0},
+  { "palavra": "Bigode", "acertos": 0, "erros": 0},
+  { "palavra": "Carrossel", "acertos": 0, "erros": 0},
+  { "palavra": "Feira", "acertos": 0, "erros": 0},
+  { "palavra": "Popular", "acertos": 0, "erros": 0},
+  { "palavra": "Papagaio", "acertos": 0, "erros": 0},
+  { "palavra": "Coro", "acertos": 0, "erros": 0},
+  { "palavra": "Aquário", "acertos": 0, "erros": 0},
+  { "palavra": "Peixes", "acertos": 0, "erros": 0},
+  { "palavra": "Banho", "acertos": 0, "erros": 0},
+  { "palavra": "Tartaruga", "acertos": 0, "erros": 0},
+  { "palavra": "Piscina", "acertos": 0, "erros": 0},
+  { "palavra": "Suculentas", "acertos": 0, "erros": 0},
+  { "palavra": "Almoço", "acertos": 0, "erros": 0},
+  { "palavra": "Gatinha", "acertos": 0, "erros": 0},
+  { "palavra": "Felizes", "acertos": 0, "erros": 0},
+  { "palavra": "Visita", "acertos": 0, "erros": 0},
+  { "palavra": "Esquilo", "acertos": 0, "erros": 0},
+  { "palavra": "Energia", "acertos": 0, "erros": 0},
+  { "palavra": "Jogar", "acertos": 0, "erros": 0},
+  { "palavra": "Catita", "acertos": 0, "erros": 0},
+  { "palavra": "Pimpão", "acertos": 0, "erros": 0}
 ]
