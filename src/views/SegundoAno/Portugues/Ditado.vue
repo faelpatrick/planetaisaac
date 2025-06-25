@@ -1,10 +1,10 @@
 <template>
   <!-- O template permanece exatamente o mesmo do seu código original -->
-  <div class="operacao-container">
+  <div class="operacao-container" >
     <Voltar />
-    <h2 class="titulo">Ditado</h2>
+    <h2 class="titulo pl-4">Ditado</h2>
 
-    <div style="position: fixed; top: 10px; right: 10px; z-index: 1000;">
+    <div style="position: absolute; top: 26px; right: 20px; z-index: 1000;">
       <label class="switch">
         <input type="checkbox" v-model="idiomaSelecionado" :true-value="'pt-BR'" :false-value="'pt-PT'" />
         <span class="slider"></span>
@@ -15,18 +15,26 @@
 
     <div v-if="palavraAtual">
       <div class="botoes-audio">
-        <v-btn size="large" @click="ouvirPalavra(1)">🔊 Normal</v-btn>
+        <v-btn size="large"
+        @click="ouvirPalavra(0.6)">🔊 Normal</v-btn>
         <v-btn size="large" @click="ouvirPalavra(0.2)">🐢 Devagar</v-btn>
       </div>
 
       <p class="my-4">A palavra será dita, escreva corretamente abaixo.</p>
 
-      <div v-if="exibirCorreta" class="resposta-correta">
-        <strong>{{ palavraAtual.palavra }}</strong>
+      <div key="exibirCorreta" :class="{
+        'resposta-correta': true, 
+        'errada': statusResposta === 'errada', 
+        'correta': statusResposta === 'certa'}">
+       <span v-if="exibirCorreta">
+         <strong>{{ palavraAtual.palavra }}</strong>
+       </span> 
       </div>
 
       <input
         v-model="resposta"
+        ref="campoResposta"
+        key="campoResposta"
         class="campo-resposta"
         :class="{
           correta: statusResposta === 'certa',
@@ -36,9 +44,21 @@
       />
 
       <div class="botoes-verificacao">
-        <v-btn v-if="!verificada" @click="verificarResposta">Verificar</v-btn>
-        <v-btn v-else @click="proximaPalavra">Próxima</v-btn>
+        <v-btn size="large" v-if="!verificada" @click="verificarResposta">Verificar</v-btn>
+        <v-btn :disabled="!compararPalavras()" size="large" v-else @click="proximaPalavra">Próxima ➡️</v-btn>
+        <!-- alerta escreva a palavra correta para continuar -->
       </div>
+      <v-alert
+        v-if="!compararPalavras() && verificada"
+        type="white"
+        icon="mdi-alert-circle"
+        class="my-4"
+        border="start"
+        variant="tonal"
+        prominent
+      >
+        Escreva a palavra correta para continuar.
+      </v-alert>
     </div>
 
     <div v-else>
@@ -48,7 +68,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, onBeforeUnmount, computed } from 'vue'
 import Voltar from '@/components/Voltar.vue'
 import palavrasJson from './palavras.json'
 
@@ -64,10 +84,25 @@ const verificada = ref(false)
 const statusResposta = ref(null)
 const exibirCorreta = ref(false)
 const placarDia = ref({ acertos: 0, erros: 0 })
+const campoResposta = ref(null)
 
 const placarTexto = computed(() =>
   `✅ ${placarDia.value.acertos} | ❌ ${placarDia.value.erros}`
 )
+
+function handleKeyup(event) {
+  if (event.ctrlKey && event.key === ' ') {
+    ouvirPalavra(0.2)
+  } else if (event.key === ' ') {
+    ouvirPalavra(0.6)
+  } else if (event.key === 'Enter') {
+    if (verificada.value) {
+      proximaPalavra()
+    } else if (!verificada.value && campoResposta.value) {
+      verificarResposta()
+    }
+  }
+}
 
 function carregarProgresso() {
   const salvo = localStorage.getItem(progressoKey)
@@ -110,14 +145,14 @@ function carregarProgresso() {
 }
 
 function inicializarPalavrasPadrao() {
-  console.warn('Inicializando palavras com o JSON padrão.')
-  console.log('Palavras JSON:', palavrasJson)
+  // console.warn('Inicializando palavras com o JSON padrão.')
+  // console.log('Palavras JSON:', palavrasJson)
   palavras.value = palavrasJson.map(p => ({
     palavra: String(p.palavra || p),
     acertos: 0,
     erros: 0
   }))
-  console.log('Palavras carregadas:', palavras.value)
+  // console.log('Palavras carregadas:', palavras.value)
   guardarProgresso()
 }
 
@@ -147,12 +182,15 @@ function guardarPlacarDia() {
 }
 
 function ordenarPalavras() {
+// console.log('Ordenando palavras...')
+// console.log('Palavras antes da ordenação:', palavras.value)
   palavras.value.sort((a, b) => {
-    // Prioriza palavras com mais erros
-    if (a.erros !== b.erros) return b.erros - a.erros
-    // Depois prioriza palavras com menos acertos
-    return a.acertos - b.acertos
+    // Prioriza palavras com mais acertos
+    if (a.acertos !== b.acertos) return  a.acertos  - b.acertos
+    // Depois prioriza palavras com menos erros
+    return a.erros - b.erros
   })
+  // console.log('Palavras após a ordenação:', palavras.value)
 }
 
 function ouvirPalavra(velocidade = 1) {
@@ -168,13 +206,17 @@ function ouvirPalavra(velocidade = 1) {
   speechSynthesis.speak(msg)
 }
 
+function compararPalavras(){
+  const limpar = val => String(val || '').trim().toLowerCase()
+  return limpar(resposta.value) === limpar(palavraAtual.value.palavra)
+}
+
 function verificarResposta() {
   if (!palavraAtual.value) return
   
   verificada.value = true
-  const limpar = val => String(val || '').trim().toLowerCase()
-  
-  if (limpar(resposta.value) === limpar(palavraAtual.value.palavra)) {
+
+  if (compararPalavras()) {
     statusResposta.value = 'certa'
     palavraAtual.value.acertos++
     placarDia.value.acertos++
@@ -192,12 +234,17 @@ function verificarResposta() {
 
 function proximaPalavra() {
   verificada.value = false
-  statusResposta.value = null
   exibirCorreta.value = false
   resposta.value = ''
+  statusResposta.value = null
   
   ordenarPalavras()
   palavraAtual.value = palavras.value[0] || null
+  if (palavraAtual.value) {
+    ouvirPalavra(0.6) // Reproduz a palavra normal ao ir para a próxima
+    campoResposta.value.focus()
+    
+  }
 }
 
 onMounted(() => {
@@ -206,7 +253,13 @@ onMounted(() => {
 
   carregarProgresso()
   carregarPlacarDia()
+  window.addEventListener('keyup', handleKeyup)
 })
+
+onBeforeUnmount(() => {
+  window.removeEventListener('keyup', handleKeyup)
+})
+
 </script>
 
 <style scoped>
@@ -230,8 +283,9 @@ onMounted(() => {
   border-radius: 8px;
   border: 2px solid #ccc;
   background-color: #f9f9f9;
-  width: 60%;
+  width: 90%;
   margin: 1rem auto;
+  border: solid 8px;
 }
 
 .campo-resposta.correta {
@@ -247,6 +301,17 @@ onMounted(() => {
   font-weight: bold;
   color: #fff;
   margin-bottom: 0.5rem;
+  background-color: #ededed;
+  border-radius: 6px;
+  height: 3rem;
+  width: 100%;
+}
+
+.resposta-correta.correta{
+  background-color: #4caf50;
+}
+.resposta-correta.errada {
+  background-color: #f44336;
 }
 
 .switch {
@@ -294,12 +359,12 @@ onMounted(() => {
 }
 
 .placar {
-  position: fixed;
+  position: absolute;
   top: 8px;
 }
 
 .titulo {
-  position: fixed;
+  position: absolute;
   top: 20px;
   text-align: center;
   font-size: 2rem;
