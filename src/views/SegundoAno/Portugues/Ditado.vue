@@ -14,7 +14,7 @@
     <div class="placar mb-8">{{ placarTexto }}
       <br>
       <v-btn @click="zerarPlacar" color="red" class="mx-2"> 🧹 Zerar Placar</v-btn>
-      <v-btn @click="dialog = !dialog" color="blue"  class="mx-2"> 📊 Estatísticas</v-btn>
+      <v-btn @click="dialog = true" color="blue"  class="mx-2"> 📊 Estatísticas</v-btn>
     </div>
 
     <div v-if="palavraAtual" key="palavraAtual" class="w-100 mt-8">
