@@ -40,6 +40,7 @@
         key="campoResposta"
         class="campo-resposta"
         :class="{
+          rounded: true,
           correta: statusResposta === 'certa',
           errada: statusResposta === 'errada'
         }"
@@ -300,11 +301,10 @@ onBeforeUnmount(() => {
   font-size: 1.5rem;
   padding: 0.6rem;
   border-radius: 8px;
-  border: 2px solid #ccc;
+  border: 8px solid transparent;
   background-color: #f9f9f9;
-  width: 90%;
+  width: 100%;
   margin: 1rem auto;
-  border: solid 8px;
 }
 
 .campo-resposta.correta {
@@ -321,7 +321,7 @@ onBeforeUnmount(() => {
   color: #fff;
   margin-bottom: 0.5rem;
   background-color: #ededed;
-  border-radius: 6px;
+  border-radius: 8px;
   height: 3rem;
   width: 100%;
 }
