@@ -11,7 +11,10 @@
       </label>
     </div>
 
-    <div class="placar">{{ placarTexto }}</div>
+    <div class="placar">{{ placarTexto }}
+      <br>
+      <v-btn @click="zerarPlacar" color="red"> 🧹 Zerar o Placar</v-btn>
+    </div>
 
     <div v-if="palavraAtual" key="palavraAtual" >
       <div class="botoes-audio">
@@ -107,6 +110,11 @@ function handleKeyup(event) {
       verificarResposta()
     }
   }
+}
+
+function zerarPlacar() {
+  placarDia.value = { acertos: 0, erros: 0 }
+  guardarPlacarDia()
 }
 
 function carregarProgresso() {
