@@ -1,6 +1,6 @@
 <template>
   <!-- O template permanece exatamente o mesmo do seu código original -->
-  <div class="operacao-container" >
+  <div class="operacao-container w-100" >
     <Voltar />
     <h2 class="titulo pl-4">Ditado</h2>
 
@@ -11,13 +11,13 @@
       </label>
     </div>
 
-    <div class="placar">{{ placarTexto }}
+    <div class="placar mb-8">{{ placarTexto }}
       <br>
-      <v-btn @click="zerarPlacar" color="red" class="mx-4"> 🧹 Zerar o Placar</v-btn>
-      <v-btn @click="dialog = !dialog" color="blue"  class="mx-4"> 📊 Ver Estatísticas</v-btn>
+      <v-btn @click="zerarPlacar" color="red" class="mx-2"> 🧹 Zerar Placar</v-btn>
+      <v-btn @click="dialog = !dialog" color="blue"  class="mx-2"> 📊 Estatísticas</v-btn>
     </div>
 
-    <div v-if="palavraAtual" key="palavraAtual" >
+    <div v-if="palavraAtual" key="palavraAtual" class="w-100 mt-8">
       <div class="botoes-audio">
         <v-btn size="large"
         @click="ouvirPalavra(0.6)">🔊 Normal</v-btn>
