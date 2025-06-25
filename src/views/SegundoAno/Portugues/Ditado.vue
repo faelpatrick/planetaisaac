@@ -13,7 +13,8 @@
 
     <div class="placar">{{ placarTexto }}
       <br>
-      <v-btn @click="zerarPlacar" color="red"> 🧹 Zerar o Placar</v-btn>
+      <v-btn @click="zerarPlacar" color="red" class="mx-4"> 🧹 Zerar o Placar</v-btn>
+      <v-btn @click="dialog = !dialog" color="blue"  class="mx-4"> 📊 Ver Estatísticas</v-btn>
     </div>
 
     <div v-if="palavraAtual" key="palavraAtual" >
@@ -73,6 +74,30 @@
       <p>A carregar palavras...</p>
     </div>
   </div>
+
+  <v-dialog v-model="dialog" width="600">
+<v-data-table
+    :headers=" [
+  { title: 'Palavra', value: 'palavra', sortable: true },
+  { title: '✅ Acertos', value: 'acertos', sortable: true },
+  { title: '❌ Erros', value: 'erros', sortable: true }
+]"
+    :items="palavras"
+    class="elevation-1"
+    >
+    <template #item.acertos="{ item }">
+      <strong>{{ item.acertos }}</strong>
+    </template>
+    <template #item.erros="{ item }">
+      <span :style="{ color: item.erros > 0 ? 'red' : 'inherit' }">
+        {{ item.erros }}
+      </span>
+    </template>
+    </v-data-table>
+      <v-spacer />
+      <v-btn text @click="dialog = false">Fechar</v-btn>
+</v-dialog>
+
 </template>
 
 <script setup>
@@ -93,6 +118,7 @@ const statusResposta = ref(null)
 const exibirCorreta = ref(false)
 const placarDia = ref({ acertos: 0, erros: 0 })
 const campoResposta = ref(null)
+const dialog = ref(null)
 
 const placarTexto = computed(() =>
   `✅ ${placarDia.value.acertos} | ❌ ${placarDia.value.erros}`
@@ -119,59 +145,47 @@ function zerarPlacar() {
 
 function carregarProgresso() {
   const salvo = localStorage.getItem(progressoKey)
-  
-  // Se não há progresso salvo, inicializa com o JSON padrão
+  const base = palavrasJson.map(p => ({
+    palavra: String(p.palavra || p),
+    acertos: 0,
+    erros: 0
+  }))
+
   if (!salvo) {
-    inicializarPalavrasPadrao()
+    palavras.value = base
+    guardarProgresso()
     return
   }
-
   try {
-    const dados = JSON.parse(salvo)
+    const salvas = JSON.parse(salvo)
+    console.log('Carregando progresso do localStorage:', salvas.length)
+    console.log('Palavras JSON:', palavrasJson)
     
-    // Verifica se os dados salvos estão no formato antigo (apenas array de strings)
-    if (Array.isArray(dados) && dados.length > 0 && typeof dados[0] === 'string') {
-      palavras.value = dados.map(p => ({
-        palavra: p,
-        acertos: 0,
-        erros: 0
-      }))
-    } 
-    // Verifica se está no formato correto (array de objetos)
-    else if (Array.isArray(dados) && dados.length > 0 && typeof dados[0] === 'object') {
-      palavras.value = dados.map(item => ({
-        palavra: String(item.palavra || ''),
-        acertos: Number(item.acertos) || 0,
-        erros: Number(item.erros) || 0
-      }))
-    } else {
-      // Se o formato for inválido, inicializa com o padrão
-      inicializarPalavrasPadrao()
-    }
+     // Criar um Map para acesso rápido
+    const mapSalvas = new Map(salvas.map(p => [p.palavra, p]))
+
+    // Fundir palavras novas do JSON com progresso antigo
+    palavras.value = base.map(p => {
+      const antiga = mapSalvas.get(p.palavra)
+      return antiga ? { ...p, acertos: antiga.acertos, erros: antiga.erros } : p
+    })
+
+    // Adiciona palavras que existiam antes mas não estão mais no JSON
+    salvas.forEach(p => {
+      if (!palavras.value.find(x => x.palavra === p.palavra)) {
+        palavras.value.push(p)
+      }
+    })
   } catch (e) {
     console.error('Erro ao carregar progresso:', e)
-    inicializarPalavrasPadrao()
+    palavras.value = base
   }
 
   ordenarPalavras()
   palavraAtual.value = palavras.value[0] || null
   if (palavraAtual.value) {
-    ouvirPalavra(0.6) // Reproduz a palavra normal ao carregar
-  } else {
-    console.warn('Nenhuma palavra carregada.')
+    ouvirPalavra(0.6)
   }
-}
-
-function inicializarPalavrasPadrao() {
-  // console.warn('Inicializando palavras com o JSON padrão.')
-  // console.log('Palavras JSON:', palavrasJson)
-  palavras.value = palavrasJson.map(p => ({
-    palavra: String(p.palavra || p),
-    acertos: 0,
-    erros: 0
-  }))
-  // console.log('Palavras carregadas:', palavras.value)
-  guardarProgresso()
 }
 
 function guardarProgresso() {
