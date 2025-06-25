@@ -13,7 +13,7 @@
 
     <div class="placar">{{ placarTexto }}</div>
 
-    <div v-if="palavraAtual">
+    <div v-if="palavraAtual" key="palavraAtual" >
       <div class="botoes-audio">
         <v-btn size="large"
         @click="ouvirPalavra(0.6)">🔊 Normal</v-btn>
@@ -29,6 +29,9 @@
        <span v-if="exibirCorreta">
          <strong>{{ palavraAtual.palavra }}</strong>
        </span> 
+        <small v-else class="small-text">
+            Ouça e escreva abaixo:
+        </small>
       </div>
 
       <input
@@ -61,7 +64,8 @@
       </v-alert>
     </div>
 
-    <div v-else>
+    <div v-if="!palavraAtual" key="semPalavras" >
+      {{ palavraAtual ? '' : 'Nenhuma palavra disponível.' }}
       <p>A carregar palavras...</p>
     </div>
   </div>
@@ -142,6 +146,11 @@ function carregarProgresso() {
 
   ordenarPalavras()
   palavraAtual.value = palavras.value[0] || null
+  if (palavraAtual.value) {
+    ouvirPalavra(0.6) // Reproduz a palavra normal ao carregar
+  } else {
+    console.warn('Nenhuma palavra carregada.')
+  }
 }
 
 function inicializarPalavrasPadrao() {
@@ -253,6 +262,16 @@ onMounted(() => {
 
   carregarProgresso()
   carregarPlacarDia()
+  // nexttick para o campo de resposta
+  setTimeout(() => {
+    if (campoResposta.value) {
+      campoResposta.value.focus()
+    }
+  }, 100)
+  if (!palavraAtual.value) { 
+    carregarProgresso()
+    carregarPlacarDia()
+  } 
   window.addEventListener('keyup', handleKeyup)
 })
 
@@ -372,6 +391,12 @@ onBeforeUnmount(() => {
   color: #fff;
   font-weight: bold;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.small-text {
+  /* font-size: 0.8rem; */
+  color: #4caf50;
+  text-wrap:  nowrap;
 }
 
 @media (max-width: 1024px) {
